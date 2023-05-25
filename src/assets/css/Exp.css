@@ -1,0 +1,238 @@
+.exp{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 30px;
+
+}
+
+.wraper {
+    text-align: center;
+    font-family: 'Manrope';
+    width: 500px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    margin: 50px auto;
+  }
+  
+  .container {
+    border-top: 2px solid #000;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  
+  .link {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .link:first-child {
+    margin-left: -55px;
+  }
+  
+  .link:last-child {
+    margin-right: -55px;
+  }
+  
+
+  .link::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    top: -18px;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 2px solid black;
+    
+  }
+  
+  .active::after,
+  .link:hover::after {
+    background: black;
+    
+  }
+  
+  p.lead {
+    font-weight: 600;
+    margin: 50px auto;
+    line-height: 1.5;
+  }
+
+.hide1 {
+    /* display: none; */
+    background: #C58813;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    /* width: 529px;
+  height: 112px; */
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+justify-items: center;
+  }
+.p-hide{
+  margin-left: 5px;
+}
+
+  /* .logo{
+    border: 1px solid white;
+    background: white;
+    text-align: center; 
+   display: flex;
+    height: 50px;
+    width: 70px;
+  } */
+
+  .logo {
+    border: 1px solid white;
+    background: white;
+    height: 70px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .h1-exp{
+    width: 189px;
+height: 49px;
+/* left: 70px;
+top: 472px; */
+margin-left: -10px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+
+
+color: #000000;
+  }
+
+#sec-2{
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.h1-skill{
+  width: 189px;
+height: 49px;
+text-align: start;
+margin-left:-1px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+/* line-height: 49px; */
+}
+
+
+.p-1{
+  background: #E3E1E1;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+width: 220px;
+height: 16px;
+}
+
+.pg-1{
+  position: absolute;
+width: 77px;
+height: 16px;
+/* left: 807px;
+top: 560px; */
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.pg-3{
+  position: absolute;
+width: 148px;
+height: 16px;
+
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.pg-5{
+  position: absolute;
+width: 31px;
+height: 16px;
+
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.pg-7{
+  position: absolute;
+width: 189px;
+height: 16px;
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.pg-2{
+  position: absolute;
+width: 110px;
+height: 16px;
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0)
+}
+.pg-4{
+  position: absolute;
+width: 220px;
+height: 16px;
+
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+pg-6{
+  position: absolute;
+width: 209px;
+height: 16px;
+
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.pg-8{
+  position: absolute;
+width: 76px;
+height: 16px;
+
+
+background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+border-radius: 4px 0px 0px 4px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.h-p{
+  text-align: start;
+}

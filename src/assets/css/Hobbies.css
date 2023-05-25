@@ -1,0 +1,224 @@
+.sec-hob{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+
+/* .box {
+    width: 530px;
+    height: 40px;
+    background: #003CC0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }   
+  .skill-box {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+   */ 
+
+   
+  
+  .box {
+    position: relative; 
+    width: 530px;
+    height: 40px;
+    background: #003CC0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .view-skill,
+  .edit-skill {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+  }
+  
+  .edit-skill input {
+    margin-right: 10px;
+  }
+  
+  .add-skill {
+    width: 510px;
+    height: 40px;
+    background: #003CC0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+  
+  .add-skill input {
+    width: 530px;
+    background-color: #003CC0;
+    color: #ffff;
+    margin-left: 10px;
+
+    /* border-width:0px;
+border:none; */
+  }
+  
+  .add-skill-btn {
+
+
+    margin-top: 10px;
+    position: relative; 
+    width: 530px;
+    height: 40px;
+    background: #003CC0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #ffff;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+
+text-align: center;
+  }
+
+
+.h3-hob{
+
+width: 54px;
+height: 22px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+align-items: center;
+margin-left: 40px;
+  }
+
+
+
+
+
+  .box-l {
+    position: relative; 
+    width: 530px;
+    height: 40px;
+    background: #F448AE;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .view-lang,
+  .edit-lang {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+  }
+  
+  .edit-lang input {
+    margin-right: 10px;
+  }
+  
+  .add-lang {
+    width: 510px;
+    height: 40px;
+    background: #F448AE;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+  
+  .add-lang input {
+    width: 530px;
+    background-color: #F448AE;
+    color: #ffff;
+    margin-left: 10px;
+
+    /* border-width:0px;
+border:none; */
+  }
+  
+  .add-lang-btn {
+
+
+    margin-top: 10px;
+    position: relative; 
+    width: 530px;
+    height: 40px;
+    background: #F448AE;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #ffff;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+
+text-align: center;
+  }
+
+
+.h3-lang{
+
+width: 54px;
+height: 22px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+align-items: center;
+margin-left: 40px;
+  }
+
+
+.h1-hob{
+    width: 189px;
+    height: 49px;
+    /* left: 70px;
+    top: 472px; */
+    margin-left: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+.h1-lang{
+    width: 189px;
+    height: 49px;
+    text-align: start;
+    margin-left:-1px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
